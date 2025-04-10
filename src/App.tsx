@@ -1,4 +1,3 @@
-import {GithubIcon, Linkedin, LucideMusic, TwitterIcon} from 'lucide-react'
 import './App.css'
 import Test3danimation from './components/3D_Animation';
 import CardCarousel from './components/ExperieneceCard';
