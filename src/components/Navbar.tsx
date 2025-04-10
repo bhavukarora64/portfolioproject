@@ -1,4 +1,4 @@
-import {Download, GithubIcon, LetterText, Linkedin, LucideMusic, TwitterIcon, } from 'lucide-react'
+import {Download, GithubIcon, Linkedin, TwitterIcon, } from 'lucide-react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 

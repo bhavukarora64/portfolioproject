@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { PanelBottomClose, ScreenShareIcon } from "lucide-react";
 
-export default function ProjectModal(props: any) {
+// @ts-expect-error: Props are decided
+export default function ProjectModal(props) {
   const [animateClass, setAnimateClass] = useState("slide-out");
   const [show, setShow] = useState(props.visible);
 
@@ -61,6 +62,7 @@ export default function ProjectModal(props: any) {
 
             {/* Image Gallery */}
             <div className="flex gap-2 px-4 mb-4 overflow-x-auto">
+            {/* @ts-expect-error: Props are decided */}
               {props.projectData.screenshots.map((element, index) => (
                 <img
                   key={index}

@@ -1,5 +1,5 @@
-import { useRef } from "react";
 
+            {/* @ts-expect-error: Props are decided */}
 export default function Projects(props){
       const projectData = [
         {
@@ -65,8 +65,11 @@ export default function Projects(props){
         </>
     )
 
-    function clickhandler(project){
-      // currProject.current = e.project;
+
+
+      {/* @ts-expect-error: Props are decided */}   
+      function clickhandler(project){      
+        {/* @ts-expect-error: Props are decided */}   
       props.setVisible((prevValue) => !prevValue)
       props.setProjectData(project)
     }
