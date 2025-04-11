@@ -30,7 +30,7 @@ export default function Navbar(){
                 <span className="text-4xl transition-all ease-in-out group-hover:rotate-10 group-hover:scale-110">
                 👋
                 </span>
-                <span className="md:hidden md:text-2xl py-1 transition-all text-yellow-400  font-bold flex group-hover:tracking-wide">
+                <span className="hidden md:text-2xl py-1 transition-all text-yellow-400  font-bold md:flex group-hover:tracking-wide">
                 Hello
                 <span className="text-yellow-400 text-2xl opacity-0 hidden invisible transition-opacity group-hover:opacity-100 group-hover:flex group-hover:visible font-bold">
                 ooooooo
