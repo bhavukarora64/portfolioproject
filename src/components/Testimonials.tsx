@@ -78,18 +78,18 @@ export default function Testimonials(){
     return (
       <div>
         <div id="testimonials-section" className="h-auto pb-24">
-          <div className="text-7xl font-bold flex justify-center mt-36 mb-16">
+          <div className="text-5xl md:text-7xl font-bold flex justify-center mt-36 mb-16">
             Testimonials
           </div>
           <div className="flex justify-center mb-8">
-            <LucideQuote className="size-12" />
+            <LucideQuote className="size-8 md:size-12" />
           </div>
   
           <div
             ref={slideRef}
-            className="text-7xl font-bold flex flex-col justify-center mx-96 transition-all duration-500"
+            className="text-7xl font-bold flex flex-col justify-center mx-12 md:mx-24 xl:mx-80 3xl:mx-96 transition-all duration-500"
           >
-            <p className="flex justify-center text-center px-54 text-2xl font-light">
+            <p className="flex justify-center text-center text-xl md:text-2xl font-light">
               {testimonials[currentSlide].userExperience}
             </p>
             <div className="flex justify-center mt-8">

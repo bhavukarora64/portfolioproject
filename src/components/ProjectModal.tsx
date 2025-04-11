@@ -39,7 +39,7 @@ export default function ProjectModal(props) {
 
       {show && (
         <div className="fixed flex justify-center items-end inset-0 bg-black/50 z-100">
-          <div className={`w-[30%] rounded-t-2xl bg-white p-4 ${animateClass}`}>
+          <div className={`w-[90%] sm:w-[60%] md:w-[50%] xl:w-[40%] 2xl:w-[30%] rounded-t-2xl bg-white p-4 ${animateClass}`}>
             {/* Close Button */}
             <div
               className="flex justify-center animate-bounce cursor-pointer"

@@ -97,7 +97,7 @@ export default function Test3danimation() {
       <div className="flex flex-col justify-center items-center text-center my-64">
         <div
           ref={containerRef}
-          className="font-bold text-9xl transition-all duration-500 ease-out hover:tracking-widest"
+          className="font-bold text-7xl md:text-9xl transition-all duration-500 ease-out hover:tracking-widest"
         >
           {letters.map((letter, index) => (
             <span key={index} className={lettersStyle[index] + " " + "relative group"}>

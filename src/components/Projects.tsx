@@ -42,11 +42,11 @@ export default function Projects(props){
 
     return(
         <>
-            <div id="project-section" className='grid grid-cols-12 gap-4 justify-items-center mx-54 py-24'>
-            <h1 className='col-span-12 text-7xl font-bold text-center mb-16'>Projects</h1>
+            <div id="project-section" className='grid grid-cols-12 gap-4 justify-center mx-16 xl:36 2xl:mx-54 py-24'>
+            <h1 className='col-span-12 text-5xl  md:text-7xl font-bold text-center mb-16'>Projects</h1>
             {projectData.map((project, index) => {
               return (
-                <div key={index} className='group relative z-10 col-span-4'>
+                <div key={index} className='group relative z-10 col-span-12 md:col-span-6 lg:col-span-4'>
                 <div onClick={() => (clickhandler(project))} className='bg-white border-2 border-black drop-shadow-xl shadow-black flex justify-center items-center w-84 h-32 rounded-2xl gap-2 px-8 py-8 transition-all duration-300 group-hover:-translate-x-1 group-hover:-translate-y-1'>
                     <img src={project.image} className='w-16 h-16 rounded-full' />
                     <div className='flex flex-col'>

@@ -25,35 +25,35 @@ export default function Navbar(){
     
     return(
         <>
-            <nav id='navbar-section' className='flex justify-between w-full px-24 pt-16'>
-            <div className="relative flex group gap-3 mt-2">
-            <span className="text-4xl transition-all ease-in-out group-hover:rotate-10 group-hover:scale-110">
-            👋
-            </span>
-            <span className="text-2xl py-1 transition-all text-yellow-400  font-bold flex group-hover:tracking-wide">
-            Hello
-            <span className="text-yellow-400 text-2xl opacity-0 hidden invisible transition-opacity group-hover:opacity-100 group-hover:flex group-hover:visible font-bold">
-            ooooooo
-            </span>
-            !
-            </span>
-        </div>
+            <nav id='navbar-section' className='flex justify-between w-full px-6 md:px-24 pt-16'>
+            <div className="relative flex group gap-3 md:mt-2">
+                <span className="text-4xl transition-all ease-in-out group-hover:rotate-10 group-hover:scale-110">
+                👋
+                </span>
+                <span className="md:hidden md:text-2xl py-1 transition-all text-yellow-400  font-bold flex group-hover:tracking-wide">
+                Hello
+                <span className="text-yellow-400 text-2xl opacity-0 hidden invisible transition-opacity group-hover:opacity-100 group-hover:flex group-hover:visible font-bold">
+                ooooooo
+                </span>
+                !
+                </span>
+            </div>
         <div className='flex gap-8'>
             <div className='flex gap-8 py-2'>
-            <a href="src/assets/CV-Bhavuk-Arora.pdf" target="_blank" download="Bhavuk_Arora_CV" className='relative group'>
+            <a href="/CV-Bhavuk-Arora.pdf" target="_blank" download="Bhavuk_Arora_CV" className='relative group'>
                 <h1 className='absolute top-[110%] left-[-100%] w-100 text-sm group-hover:animate-pulse group-hover:flex hidden'>Download - CV</h1>
-                <Download  className='size-6 hover:scale-120 hover:text-pink-600 transition-all duration-100 ease-in-out animate-[ping_0.9s_infinite] hover:animate-none'/>
+                <Download  className='size-4 md:size-6  hover:scale-120 hover:text-pink-600 transition-all duration-100 ease-in-out animate-[ping_0.9s_infinite] hover:animate-none'/>
             </a>
-            <Link to="https://www.linkedin.com/in/bhavukarora19/"><Linkedin  className='size-6 hover:scale-120   hover:text-blue-500 transition-all duration-100 ease-in-out'/></Link>
-            <Link to="https://github.com/bhavukarora64"><GithubIcon className='size-6 hover:scale-120  hover:text-black transition-all duration-100 ease-in-out'/></Link>
-            <Link to="https://x.com/"><TwitterIcon className='size-6 hover:scale-120 hover:text-blue-400 transition-all duration-100 ease-in-out'/></Link>
+            <Link to="https://www.linkedin.com/in/bhavukarora19/"><Linkedin  className='size-4 md:size-6 hover:scale-120   hover:text-blue-500 transition-all duration-100 ease-in-out'/></Link>
+            <Link to="https://github.com/bhavukarora64"><GithubIcon className='size-4 md:size-6 hover:scale-120  hover:text-black transition-all duration-100 ease-in-out'/></Link>
+            <Link to="https://x.com/"><TwitterIcon className='size-4 md:size-6 hover:scale-120 hover:text-blue-400 transition-all duration-100 ease-in-out'/></Link>
             </div>
-            <div className='flex gap-2 transition-all  duration-500 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-500'>
-            <h1 className='text-4xl font-medium'>{time}</h1>
-            <div className='flex flex-col py-1'>
-                <h1 className='text-xs font-semibold'>{dayMonth}</h1>
-                <h1 className='text-xs font-semibold'>{year}</h1>
-            </div>
+            <div className='flex gap-2 transition-all duration-500 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-500'>
+                <h1 className='text-2xl md:text-4xl font-medium'>{time}</h1>
+                <div className='flex flex-col py-1'>
+                    <h1 className='text-xs font-semibold'>{dayMonth}</h1>
+                    <h1 className='text-xs font-semibold'>{year}</h1>
+                </div>
             </div>
         </div>
         </nav>
