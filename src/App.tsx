@@ -1,6 +1,5 @@
 import './App.css'
 import Test3danimation from './components/3D_Animation';
-import CardCarousel from './components/ExperieneceCard_Deprecated';
 import Navbar from './components/Navbar';
 import Floating_Navbar from './components/Floating_Navbar';
 import Projects from './components/Projects';
