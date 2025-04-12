@@ -27,7 +27,7 @@ export default function Projects(props){
           ]
         },
         {
-          title: 'FLEET4U',
+          title: 'Fleet4U',
           description: 'Manage Your Fleet Maintenance from Start to Finish.',
           image: 'https://static.vecteezy.com/system/resources/previews/002/552/679/non_2x/delivery-cargo-service-logistic-truck-transport-line-style-icon-free-vector.jpg',
           url: 'https://fleet-management-5eyg.vercel.app/',
@@ -42,22 +42,36 @@ export default function Projects(props){
 
     return(
         <>
-            <div id="project-section" className='grid grid-cols-12 gap-4 justify-center mx-16 xl:36 2xl:mx-54 py-24'>
-            <h1 className='col-span-12 text-5xl  md:text-7xl font-bold text-center mb-16'>Projects</h1>
+        <style>{`
+          @keyframes slide{
+            0% {
+              transform: translateY(-50%)
+            }
+            100% {
+              transform: translateY(0%)
+            }
+          }
+          
+        .slide{
+          animation: slide 1s ease-in-out;
+        }
+        `}</style>
+            <div id="project-section" className='grid grid-cols-12 gap-8 justify-center mx-16 xl:36 2xl:mx-54 py-24 '>
+            <h1 className='col-span-12 text-5xl  md:text-7xl font-bold text-center mb-16 slide'>Projects</h1>
             {projectData.map((project, index) => {
               return (
-                <div key={index} className='group relative z-10 col-span-12 md:col-span-6 lg:col-span-4'>
-                <div onClick={() => (clickhandler(project))} className='bg-white border-2 border-black drop-shadow-xl shadow-black flex justify-center items-center w-84 h-32 rounded-2xl gap-2 px-8 py-8 transition-all duration-300 group-hover:-translate-x-1 group-hover:-translate-y-1'>
-                    <img src={project.image} className='w-16 h-16 rounded-full' />
-                    <div className='flex flex-col'>
-                    <p className='font-bold'>{project.title}</p>
-                    <p className='text-blue-600 text-sm'>{project.url}</p>
-                    </div>
-                </div>
+                <div key={index} className='group relative z-10 col-span-12 md:col-span-6 lg:col-span-4 mx-5 sm:mx-0'>
+                  <div onClick={() => (clickhandler(project))} className='bg-white border-2 border-black drop-shadow-xl shadow-black flex items-center w-full h-full rounded-2xl gap-2 p-4 transition-all duration-300 group-hover:-translate-x-1 group-hover:-translate-y-1'>
+                      <img src={project.image} className='w-24 h-24 rounded-full' />
+                      <div className='flex flex-col'>
+                        <p className='font-bold text-xl'>{project.title}</p>
+                        <p className='text-blue-600 text-sm'>{project.url}</p>
+                      </div>
+                  </div>
 
-                <div className='absolute top-0 left-0 w-84 h-32 rounded-2xl bg-yellow-500 border-2 border-black -z-10 transition-all duration-300 group-hover:left-2 group-hover:top-2'></div>
+                  <div className='absolute top-0 left-0 w-full h-full rounded-2xl bg-yellow-500 border-2 border-black -z-10 transition-all duration-300 group-hover:left-2 group-hover:top-2'></div>
 
-                <div className='absolute top-0 left-0 w-84 h-32 rounded-2xl bg-purple-500 border-2 border-black -z-20 transition-all duration-300 group-hover:left-4 group-hover:top-4'></div>
+                  <div className='absolute top-0 left-0 w-full h-full rounded-2xl bg-purple-500 border-2 border-black -z-20 transition-all duration-300 group-hover:left-4 group-hover:top-4'></div>
                 </div>
             )
             })}

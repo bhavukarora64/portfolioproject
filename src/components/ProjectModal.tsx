@@ -52,9 +52,9 @@ export default function ProjectModal(props) {
             <div className="grid grid-cols-12 pb-8 pt-6">
               <img
                 src={props.projectData.image}
-                className="col-span-3 px-4 w-36 h-16"
+                className="col-span-3 px-4 w-36 h-auto rounded-xl object-cover"
               />
-              <div className="col-span-9">
+              <div className="col-span-9 flex flex-col justify-center">
                 <h1 className="text-2xl">{props.projectData.title}</h1>
                 <p className="text-md text-blue-600">{props.projectData.url}</p>
               </div>

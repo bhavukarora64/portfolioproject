@@ -1,6 +1,6 @@
 import './App.css'
 import Test3danimation from './components/3D_Animation';
-import CardCarousel from './components/ExperieneceCard';
+import CardCarousel from './components/ExperieneceCard_Deprecated';
 import Navbar from './components/Navbar';
 import Floating_Navbar from './components/Floating_Navbar';
 import Projects from './components/Projects';
@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import ConnectUs from './components/ConnectUs';
 import ProjectModal from './components/ProjectModal';
 import { useState } from 'react';
+import Experience from './components/Experience';
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -21,7 +22,7 @@ function App() {
       <Floating_Navbar />
       <Projects visible={visible} setVisible={setVisible} setProjectData={setProjectData}/>
       <Principles />
-      <CardCarousel/>
+      <Experience />
       <Testimonials />
       <ConnectUs />
       <ProjectModal visible={visible} setVisible={setVisible} projectData={projectData}/>

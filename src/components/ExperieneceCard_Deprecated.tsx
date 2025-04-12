@@ -42,7 +42,7 @@ function ExperienceCard({
 }) {
   return (
     <div
-      className={" bg-cover bg-center h-84 md:h-72 w-[700px] sm:w-[400px] md:w-[450px] rounded-2xl shadow-lg overflow-hidden transition-all duration-300" + " " + (isDimmed ? "opacity-40 scale-90" : "opacity-100 scale-100") + " " + additionalStyles}
+      className={" bg-cover bg-center h-84 md:h-72 w-[200px] sm:w-[400px] md:w-[450px] rounded-2xl shadow-lg transition-all duration-300" + " " + (isDimmed ? "opacity-40 scale-90" : "opacity-100 scale-100") + " " + additionalStyles}
       style={{
         backgroundImage:
           "url(https://res.cloudinary.com/deljwxfuf/image/upload/v1744293208/dark-tech-background_bepobv.svg)",
