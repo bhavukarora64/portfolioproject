@@ -6,7 +6,7 @@ export default function Projects(props){
           title: 'Brainly',
           description: 'AI-Powered Second Brain.',
           image: 'https://as1.ftcdn.net/v2/jpg/02/14/39/38/1000_F_214393844_8TuJzbiHWQT8tRqamM2WZYg2M1XM2fh0.jpg',
-          url: 'https://brainly-v1-frontend.vercel.app/',
+          url: 'https://brainly.bhavukarora.eu/',
           screenshots: [
             "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283527/Screenshot_2025-04-10_at_13.02.24_diolld.png",
             "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.05.31_gi6z5b.png",
@@ -18,7 +18,7 @@ export default function Projects(props){
           title: 'Stage Scouts',
           description: 'Discover the best viewes in Town.',
           image: 'https://thumbs.dreamstime.com/b/stage-constructions-flat-line-icon-scene-event-equipment-rental-sign-thin-linear-logo-concert-music-festival-vector-139181397.jpg',
-          url: 'https://stage-scouts.vercel.app/',
+          url: 'https://stagescouts,bhavukarora.eu/',
           screenshots: [
             "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.05.51_wcndr2.png",
             "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.06.34_oytwk5.png",
@@ -30,7 +30,7 @@ export default function Projects(props){
           title: 'Fleet4U',
           description: 'Manage Your Fleet Maintenance from Start to Finish.',
           image: 'https://static.vecteezy.com/system/resources/previews/002/552/679/non_2x/delivery-cargo-service-logistic-truck-transport-line-style-icon-free-vector.jpg',
-          url: 'https://fleet-management-5eyg.vercel.app/',
+          url: 'https://fleet4u,bhavukarora.eu/',
           screenshots: [
             "https://res.cloudinary.com/deljwxfuf/image/upload/v1744284424/Screenshot_2025-04-10_at_13.20.44_odblcs.png",
             "https://res.cloudinary.com/deljwxfuf/image/upload/v1744284424/Screenshot_2025-04-10_at_13.21.40_qcu9vx.png",
