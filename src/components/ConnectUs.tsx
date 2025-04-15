@@ -10,7 +10,7 @@ export default function ConnectUs(){
                 <h1 className='absolute top-[50px] left-[-30px] w-100 text-sm group-hover:animate-pulse group-hover:flex hidden'>Download - CV</h1>
                 <a href="src/assets/CV-Bhavuk-Arora.pdf" target="_blank" download="Bhavuk_Arora_CV" className='relative group'>
                     <h1 className='absolute top-[50px] left-[-30px] w-100 text-sm group-hover:animate-pulse group-hover:flex hidden'>Download - CV</h1>
-                    <Download  className='size-6 hover:scale-120 hover:text-pink-600 transition-all duration-100 ease-in-out animate-[ping_0.9s_infinite] hover:animate-none'/>
+                    <Download  className='size-8 hover:scale-120 hover:text-pink-600 transition-all duration-100 ease-in-out hover:animate-[bounce_1s_infinite]'/>
                 </a>
                     <Link to="https://www.linkedin.com/in/bhavukarora19/"><Linkedin  className='size-8 hover:scale-120   hover:text-blue-500 transition-all duration-100 ease-in-out'/></Link>
                     <Link to="https://github.com/bhavukarora64"><GithubIcon className='size-8 hover:scale-120  hover:text-black transition-all duration-100 ease-in-out'/></Link>

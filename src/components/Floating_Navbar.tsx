@@ -19,6 +19,7 @@ function NavbarSelector(){
             }
         `}</style>
     return(
+
         <div className="absolute w-auto h-auto border-1 border-black top-[-315%] left-[90px] flex flex-col text-black bg-white gap-2 text-xl rounded-tl-2xl rounded-br-2xl  rounded-tr-2xl" >
                 <Link to="project-section" smooth={true} duration={500} className=" text-sm cursor-pointer transition-all duration-400 ease-in-outter md:flex justify-center items-center hover:bg-black/30 w-auto h-auto p-3">
                     <span>Projects</span>

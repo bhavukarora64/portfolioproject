@@ -8,7 +8,8 @@ import Testimonials from './components/Testimonials';
 import ConnectUs from './components/ConnectUs';
 import ProjectModal from './components/ProjectModal';
 import { useState } from 'react';
-import Experience from './components/Experience';
+import Introduction from './components/Introduction';
+import ExperienceTestimonial from './components/Experience-timeline';
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -18,10 +19,11 @@ function App() {
     <div className='relative'>
       <Navbar />
       <Test3danimation />
+      <Introduction />
       <Floating_Navbar />
       <Projects visible={visible} setVisible={setVisible} setProjectData={setProjectData}/>
       <Principles />
-      <Experience />
+      <ExperienceTestimonial />
       <Testimonials />
       <ConnectUs />
       <ProjectModal visible={visible} setVisible={setVisible} projectData={projectData}/>

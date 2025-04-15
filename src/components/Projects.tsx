@@ -65,7 +65,7 @@ export default function Projects(props){
                       <img src={project.image} className='w-24 h-24 rounded-full' />
                       <div className='flex flex-col'>
                         <p className='font-bold text-xl'>{project.title}</p>
-                        <p className='text-blue-600 text-sm'>{project.url}</p>
+                        <p className='text-blue-600 text-sm w-48  md:w-84 '>{project.description}</p>
                       </div>
                   </div>
 

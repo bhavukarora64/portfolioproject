@@ -87,7 +87,7 @@ export default function Testimonials(){
   
           <div
             ref={slideRef}
-            className="text-7xl font-bold flex flex-col justify-center mx-12 md:mx-24 xl:mx-80 3xl:mx-96 transition-all duration-500"
+            className="text-7xl font-bold flex flex-col justify-center mx-12 md:mx-24 lg:mx-[250px] 2xl:mx-[500px] transition-all duration-500"
           >
             <p className="flex justify-center text-center text-xl md:text-2xl font-light">
               {testimonials[currentSlide].userExperience}

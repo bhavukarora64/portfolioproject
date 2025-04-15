@@ -69,7 +69,8 @@ export default function Test3danimation() {
   }, []);
 
   return (
-    <>
+      <div>
+      <div className="absolute inset-0 -z-10 h-screen w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>      
       <style>{`
         @keyframes spinBounce {
           0% {
@@ -94,7 +95,7 @@ export default function Test3danimation() {
         }
       `}</style>
 
-      <div className="flex flex-col justify-center items-center text-center my-64">
+      <div className="relative flex flex-col justify-center items-center text-center my-64">
         <div
           ref={containerRef}
           className="font-bold text-7xl md:text-9xl transition-all duration-500 ease-out hover:tracking-widest"
@@ -119,6 +120,6 @@ export default function Test3danimation() {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
