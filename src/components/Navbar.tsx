@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
         <div className='flex gap-2 md:gap-8'>
           <div className='flex gap-4 md:gap-8 py-2'>
-            <a href="/CV-Bhavuk-Arora.pdf" target="_blank" download="Bhavuk_Arora_CV" className='relative group'>
+            <a href="/Curriculum_vitae_Bhavuk.pdf" target="_blank" download="Bhavuk_Arora_CV" className='relative group'>
               <h1 className='absolute top-[110%] left-[-100%] w-100 text-sm group-hover:animate-pulse group-hover:flex hidden'>Download - CV</h1>
               <Download className='size-4 md:size-6 hover:scale-150 hover:text-pink-600 transition-all duration-100 ease-in-out hover:animate-[bounce_1s_infinite]' />
             </a>

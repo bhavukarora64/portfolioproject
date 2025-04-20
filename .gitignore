@@ -48,7 +48,6 @@ cypress/videos/
 build/
 .cache/
 .tmp/
-public/
 
 # Ignore local uploads (e.g., Cloudinary)
 uploads/
