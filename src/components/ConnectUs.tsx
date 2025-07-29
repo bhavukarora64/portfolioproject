@@ -14,7 +14,7 @@ export default function ConnectUs(){
                 </a>
                     <Link to="https://www.linkedin.com/in/bhavukarora19/"><Linkedin  className='size-8 hover:scale-120   hover:text-blue-500 transition-all duration-100 ease-in-out'/></Link>
                     <Link to="https://github.com/bhavukarora64"><GithubIcon className='size-8 hover:scale-120  hover:text-black transition-all duration-100 ease-in-out'/></Link>
-                    <Link to="https://x.com/"><TwitterIcon className='size-8 hover:scale-120 hover:text-blue-400 transition-all duration-100 ease-in-out'/></Link>
+                    <Link to="https://x.com/bhavukarora64"><TwitterIcon className='size-8 hover:scale-120 hover:text-blue-400 transition-all duration-100 ease-in-out'/></Link>
                 </div>
 
                 <style>
