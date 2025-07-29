@@ -1,5 +1,5 @@
 
-            {/* @ts-expect-error: Props are decided */}
+{/* @ts-expect-error: Props are decided */}
 export default function Projects(props){
       const projectData = [
         {
@@ -8,10 +8,10 @@ export default function Projects(props){
           image: 'https://as1.ftcdn.net/v2/jpg/02/14/39/38/1000_F_214393844_8TuJzbiHWQT8tRqamM2WZYg2M1XM2fh0.jpg',
           url: 'https://brainly.bhavukarora.eu/',
           screenshots: [
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283527/Screenshot_2025-04-10_at_13.02.24_diolld.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.05.31_gi6z5b.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283527/Screenshot_2025-04-10_at_13.02.52_a1h7fi.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283527/Screenshot_2025-04-10_at_13.04.38_wpar5z.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803830/Screenshot_2025-04-10_at_13.02.24_jst8ba.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803829/Screenshot_2025-04-10_at_13.02.52_fv0lgo.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803830/Screenshot_2025-04-10_at_13.05.31_fe8n1x.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803830/Screenshot_2025-04-10_at_13.04.38_vc9gjy.png",
           ]
         },
         {
@@ -20,10 +20,11 @@ export default function Projects(props){
           image: 'https://thumbs.dreamstime.com/b/stage-constructions-flat-line-icon-scene-event-equipment-rental-sign-thin-linear-logo-concert-music-festival-vector-139181397.jpg',
           url: 'https://stagescouts.bhavukarora.eu/',
           screenshots: [
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.05.51_wcndr2.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.06.34_oytwk5.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.06.45_sopiyl.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744283528/Screenshot_2025-04-10_at_13.06.54_tqrrfs.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803855/Screenshot_2025-04-10_at_13.05.51_haaagv.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803841/Screenshot_2025-04-10_at_13.06.34_on44ms.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803838/Screenshot_2025-04-10_at_13.06.22_vl88uk.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803829/Screenshot_2025-04-10_at_13.06.45_ykwmpu.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753803830/Screenshot_2025-04-10_at_13.06.54_f5wajx.png"
           ]
         },
         {
@@ -32,10 +33,11 @@ export default function Projects(props){
           image: 'https://static.vecteezy.com/system/resources/previews/002/552/679/non_2x/delivery-cargo-service-logistic-truck-transport-line-style-icon-free-vector.jpg',
           url: 'https://fleet4u.bhavukarora.eu/',
           screenshots: [
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744284424/Screenshot_2025-04-10_at_13.20.44_odblcs.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744284424/Screenshot_2025-04-10_at_13.21.40_qcu9vx.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744284424/Screenshot_2025-04-10_at_13.21.57_zcnwcy.png",
-            "https://res.cloudinary.com/deljwxfuf/image/upload/v1744284423/Screenshot_2025-04-10_at_13.21.26_uatku0.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753804459/Screenshot_2025-07-29_at_17.50.22_tcaabk.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753804458/Screenshot_2025-07-29_at_17.51.09_bqokam.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753804462/Screenshot_2025-07-29_at_17.51.19_gd8flr.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753804459/Screenshot_2025-07-29_at_17.51.29_ii96fc.png",
+            "https://res.cloudinary.com/deljwxfuf/image/upload/v1753804458/Screenshot_2025-07-29_at_17.51.01_qr4bpe.png"
           ]
         }
       ]
