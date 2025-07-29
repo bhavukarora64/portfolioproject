@@ -20,7 +20,7 @@ export default function Introduction() {
         opacity: 0;
       }
       to {
-        transform: translateY(190%) translateX(100%);
+        transform: translateY(100%) translateX(350%);
         opacity: 1;
       }
     }
@@ -31,7 +31,7 @@ export default function Introduction() {
         opacity: 0;
       }
       to {
-        transform: translateY(-120%) translateX(300px) ;
+        transform: translateY(100%) translateX(0%) ;
         opacity: 1;
       }
     }
@@ -42,7 +42,7 @@ export default function Introduction() {
         opacity: 0;
       }
       to {
-        transform: translateY(100%) translateX(170%) ;
+        transform: translateY(100%) translateX(250%) ;
         opacity: 1;
       }
     }
@@ -53,7 +53,7 @@ export default function Introduction() {
         opacity: 0;
       }
       to {
-        transform: translateY(-20%) translateX(130%) ;
+        transform: translateY(100%) translateX(150%) ;
         opacity: 1;
       }
     }
@@ -67,25 +67,25 @@ export default function Introduction() {
     .float-up-right {
       animation: float-up-right 1.2s ease-out forwards;
       animation-timeline: view();
-      animation-range: entry 40% cover 50%;
+      animation-range: entry 60% cover 100%;
     }
 
     .float-up {
       animation: float-up 1.2s ease-out forwards;
       animation-timeline: view();
-      animation-range: entry 40% cover 50%;
+      animation-range: entry 60% cover 100%;
     }
 
     .float-down-right {
       animation: float-down-right 1.2s ease-out forwards;
       animation-timeline: view();
-      animation-range: entry 40% cover 50%;
+      animation-range: entry 60% cover 100%;
     }
 
     .float-down {
       animation: float-down 1.2s ease-out forwards;
       animation-timeline: view();
-      animation-range: entry 40% cover 50%;
+      animation-range: entry 60% cover 100%;
     }
   `;
 
@@ -111,22 +111,22 @@ export default function Introduction() {
           <span className='relative text-xl font-medium'>
             <h1 className='text-3xl md:text-4xl'>requirements.</h1>
 
-          <span className='absolute left-[0%] top-[0%] rotate-[0deg] flex gap-2 bg-yellow-200 text-yellow-900 rounded-full px-4 py-2 float-up-right'>
+          <span className='absolute left-[0%] top-[100%] rotate-[0deg] flex gap-2 bg-yellow-200 text-yellow-900 rounded-full px-4 py-2 float-up-right'>
             <Rocket className='size-6' />
             performance
           </span>
 
-          <span className='absolute left-[0%] top-[0%] rotate-[deg] flex gap-2 bg-pink-200 text-pink-900 rounded-full px-4 py-2 float-up'>
+          <span className='absolute left-[0%] top-[100%] rotate-[deg] flex gap-2 bg-pink-200 text-pink-900 rounded-full px-4 py-2 float-up'>
             <LockKeyholeIcon className='size-6' />
             security
           </span>
 
-          <span className='absolute left-[0] top-[0%] rotate-[0deg] flex gap-2 bg-green-200 text-green-900 rounded-full px-4 py-2 float-down-right'>
+          <span className='absolute left-[0] top-[100%] rotate-[0deg] flex gap-2 bg-green-200 text-green-900 rounded-full px-4 py-2 float-down-right'>
             <Layout className='size-6' />
             accessiblity
           </span>
 
-          <span className='absolute left-[0%] top-[0%] rotate-[0deg] flex gap-2 bg-purple-200 text-purple-900 rounded-full px-4 py-2 float-down'>
+          <span className='absolute left-[0%] top-[100%] rotate-[0deg] flex gap-2 bg-purple-200 text-purple-900 rounded-full px-4 py-2 float-down'>
             <CloudLightningIcon className='size-6' />
             real-time
           </span>          
